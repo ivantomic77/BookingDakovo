@@ -1,0 +1,291 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color:#5cdb95;
+	font-family: 'Merriweather';
+	font-size: 18px;
+	margin: 0;
+  	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	color: #edf5e1;
+	font-weight: bold;
+}
+
+.hotel-rating {
+	color: #05386b;
+}
+
+.button {
+	background-color: #05386b;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 3px 7px;
+	cursor: pointer;
+	max-height: 50px;
+	height: 30px;
+}
+
+.center-icons {
+	justify-content: center;
+	align-items: center;
+}
+
+select {
+	background-color: #05386b;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 3px 7px;
+	cursor: pointer;
+	min-height: 25px;
+	min-width: 75px;
+}
+
+input {
+	border: 1px solid;
+	border-color: black;
+	border-radius: 4px;
+	padding: 3px 7px;
+	max-height: 20px;
+	height: 20px;
+}
+
+.button:hover {
+	animation: fadeIn 0.4s;
+	background-color: #0080ff;
+}
+
+@keyframes fadeIn {
+	from {
+		background-color: #05386b;
+	}
+	to {
+		background-color: #0080ff;
+	}
+}
+
+.right-nav {
+	margin-right: 10px;
+}
+
+.nav-icon {
+	margin-left: 10px;
+	height: 75px;
+	width: 75px;
+}
+
+.BodyText {
+	animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	text-align: center;
+	color: #edf5e1;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.login {
+	text-align: center;
+}
+
+.RestaurantSearch {
+	text-align: center;
+}
+
+.HotelSearch {
+	text-align: center;
+	animation: popup 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  	align-items: center;
+	animation: popup 0.1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+figure {
+	display: inline-block;
+	text-align: center; 
+
+}
+
+figure:active {
+	box-shadow:0px 0px 25px -7px rgba(0, 0, 0, 0.29);
+
+}
+
+.vertical {
+	border-left: 2px solid #05386b;
+	height: 100px;
+	animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+figure img {
+  vertical-align: top;
+}
+
+.center-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  	align-items: center;
+}
+
+.links a{
+	text-decoration: none;
+	color: #edf5e1;
+}
+
+.address {
+	color: #edf5e1;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+  	align-items: center;
+  	background-color: #05386b;
+  	margin: 0;
+  	border: 0;
+}
+
+.figtext {
+	color: #05386b;
+}
+
+.hotel-rating {
+	padding: 3px;
+	border: solid black 2px;
+	border-radius: 4px;
+	background-color: #5cdb95;
+}
+
+.rights {
+	font-size: 15px;
+	text-align: center;
+	background-color: #05386b;
+	color: #edf5e1;
+	margin: 0;
+	border: 0;
+}
+
+.navigation .valuta {
+	align-items: center;
+	justify-items: center;
+	height: 20px;
+	max-width: 60px;
+	margin: 5px;
+}
+
+.navigation .button {
+	margin: 5px;
+}
+
+.navigation .right-nav {
+	text-align: center;
+}
+
+.login {
+	width: max-content;
+    margin: 40px auto;
+    font-family: "Segoe UI", sans-serif;
+    padding: 25px 28px;
+    background: #379683;
+    animation: popup 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.login-text {
+	text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #edf5e1;
+}
+
+.input-parent {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #edf5e1;
+}
+
+.input-parent input {
+    padding: 10px 8px;
+    width: 100%;
+    font-size: 16px;
+    background: #edf5e1;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.input-parent input:hover {
+    background: #404040;
+}
+.input-parent input:focus {
+    box-shadow: 0px 0px 0px 1px #0087ff;
+}
+
+.card {
+	color: #edf5e1;
+	background-color: #379683;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: center;
+	justify-content:flex-start;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 3%;
+	margin-bottom: 1%;
+	padding: 1%;
+	animation: popup 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card-img {
+	width: 400px;
+	height: 250px;
+	margin-right: 2%;
+}
+
+.detail {
+	margin-left: auto;
+	text-align: center;
+}
